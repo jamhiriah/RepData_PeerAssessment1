@@ -7,6 +7,7 @@ output:
 ---
 
 ## Loading and preprocessing the data
+
 ```{r echo=TRUE,warning=FALSE}
 mydata<-read.csv("activity.csv",header=TRUE,sep=",")
 ```
@@ -139,4 +140,5 @@ library(lattice)
 xyplot(stepsbyintervalday$steps ~ stepsbyintervalday$interval|stepsbyintervalday$day, main="Average Steps per Day by Interval",xlab="Interval", ylab="Steps",layout=c(1,2), type="l")
 ```
 
-There is a higher peak steps earlier on weekdays and more an average steps on weekends   
+There is a higher peak steps earlier on weekdays and more an average steps on weekends.
+

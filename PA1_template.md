@@ -2,6 +2,7 @@
 
 ## Loading and preprocessing the data
 
+
 ```r
 mydata<-read.csv("activity.csv",header=TRUE,sep=",")
 ```
@@ -186,4 +187,5 @@ xyplot(stepsbyintervalday$steps ~ stepsbyintervalday$interval|stepsbyintervalday
 
 ![](PA1_template_files/figure-html/unnamed-chunk-14-1.png) 
 
-There is a higher peak steps earlier on weekdays and more an average steps on weekends   
+There is a higher peak steps earlier on weekdays and more an average steps on weekends.
+
